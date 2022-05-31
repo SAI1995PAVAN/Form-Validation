@@ -1,0 +1,26 @@
+.related-benificiary-owner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+
+.related-benificiary-input {
+  width: 50%;
+  margin: 0px 10px;
+}
+
+.paraData {
+  width: 50%;
+}
+
+.related-benificiary-input label {
+  width: 50%;
+}
+
+.related-benificiary-input input {
+  width: 50%;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-align: center;
+}

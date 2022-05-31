@@ -1,0 +1,72 @@
+.Address-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Address-block {
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.Address-block label {
+  width: 40%;
+}
+
+.Address-block input {
+  width: 40%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.address-drop-down {
+  display: flex;
+  width: 50%;
+}
+
+.address-drop-down label {
+  width: 40%;
+}
+
+.address-drop-down .address-drop-button .drop-button {
+  width: 60%;
+  color: black;
+  background-color: #fff;
+}
+
+#drop-button-1,
+#drop-button-2,
+#drop-button-3,
+#drop-button-4,
+#drop-button-5,
+#drop-button-6,
+#drop-button-7,
+#drop-button-8 {
+  width: 100%;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+h1,
+h2 {
+  background-color: rgb(72, 208, 208);
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.address-scroll-dropdown {
+  overflow: scroll;
+  height: 360px;
+  width: 180px;
+}
+
+#copy-data {
+  color: black;
+  font-weight: bold;
+}
+
+#copy-data:hover {
+  color: blueviolet;
+}

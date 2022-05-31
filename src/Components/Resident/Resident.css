@@ -1,0 +1,44 @@
+.resident-block {
+  margin: 10px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#tax-resident {
+  width: 25%;
+}
+#resident-radio {
+  width: 25%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#verification {
+  background-color: rgb(225, 238, 242);
+  height: 2em;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+}
+
+#resident-information {
+  margin: 10px 0px;
+  text-align: left;
+}
+#date-place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#date-place label {
+  text-transform: uppercase;
+  margin: 10px 10px;
+}
+
+#date-place input {
+  padding: 6px 12px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  width: 200px;
+}

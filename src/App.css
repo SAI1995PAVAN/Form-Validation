@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+#accordion-page {
+  border: 1px solid #aaa;
+
+  margin: 10px;
+}
+
+.all-accordions {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
